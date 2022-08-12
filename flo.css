@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-section {
+    height: 90vh;
+    margin: 5rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.nav-items > a {
+    text-decoration: none;
+    color: rgb(85, 85, 228);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-img-container > img {
+    width: 550px;
+}
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hero-text-container > h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(61, 61, 208);
+}.hero-text-container > p {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:  rgb(49, 49, 120);
+    margin-bottom: 20px;
+
+}
+.clt-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clt-container > input {
+    width: 350px;
+    margin-right: 20px;
+    padding: 12px 28px;
+    outline-width: 0;
+    border: 2px solid rgb(120, 67, 169);
+}
+.clt-container > button {
+    width: 180px;
+    padding: 12px 28px;
+    border: none;
+    background-color: rgb(59, 59, 214);
+    outline-width: 0ch;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    height: 90vh;
+}
+.feature-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.feature-text-container >h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color:  rgb(49, 49, 120);
+    margin-bottom: 20px;
+
+}
+.feature-text-container >p {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(49, 49, 120);
+    margin-bottom: 20px;
+}
+.feature-text-container > button {
+    outline-width: o;
+    border: none;
+    color: rgb(76, 206, 163);
+    border-bottom: 2px solid rgb(81, 190, 154);
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.feature-img-container > img {
+    width: 550px;
+    
+}
+.personal-info-container >img {
+    width: 40px;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 8px rgb(245, 235, 235);
+}
+.testimonial-container >p {
+    margin-bottom: 15px;
+    color: rgb(155, 155, 239);
+
+}
+.personal-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal-info.name {
+    font-weight: 800;
+    color: rgb(117, 117, 234);
+}
+.personal-info.work {
+    color: rgb(117, 117, 234);
+
+}
+.call-to-action-section {
+    padding-top: 2rems;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(35, 35, 143);
+    height: 40vh;
+    padding-bottom: 2rem;
+
+}
+.clt-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.clt-text-container >h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.clt-text-container > p {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(161, 151, 151);
+    
+}
+.clt-email-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.clt-email-container > input {
+    width: 300px;
+    padding: 12px 28px;
+    outline-width: 0;
+    border: 2px solid blueviolet;
+    margin-bottom: 20px;
+}
+.clt-email-container > button {
+    width: 180px;
+    outline-width: o;
+    border: none;
+    color: rgb(245, 253, 250);
+    background-color: rgb(64, 64, 164);
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+.footer-section {
+    background-color: rgb(21, 21, 94);
+    padding-top: 40px;
+    height: 40vh;
+    color: white;
+}
+.footer-section > img {
+    margin-left: 100px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.personal-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.phone-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+
+}
+.phone-container > img {
+    margin-right: 10px;
+}
+.email-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.email-container > img {
+    margin-right: 10px;
+}
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.menu-container > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.social-container > img{
+margin-left: 15px;
+cursor: pointer;
+}
